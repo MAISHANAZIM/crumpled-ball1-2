@@ -19,7 +19,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	paperObj=new paper(300,300,40);
+	paperObj=new Paper(300,300,40);
 	ground=new Ground(800,485,200,20);
 	block1=new Box(1200,470,180,20);
 	block2=new Box(110,430,20,100);
